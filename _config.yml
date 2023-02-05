@@ -16,11 +16,11 @@ minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "n
 
 # Site Settings
 locale: "ko-KR"
-title: "Baekbly Blog"
+title: "Baekbly"
 title_separator: "|"
 subtitle: # site tagline that appears below site title in masthead
 name: "Baekbly"
-description: "개발 노트"
+description: "Archive"
 url: "https://baekbly.github.io"
 baseurl: # the subpath of your site, e.g. "/blog"
 repository: # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -105,8 +105,8 @@ analytics:
 author:
   name: "Baekbly"
   avatar: "/assets/images/me.jpg"
-  bio: "개발노트"
-  location: "Seoul"
+  bio: "Archive"
+  location:
   email:
   links:
 
@@ -243,7 +243,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: true
+      read_time: false
       comments: # true
       share: true
       related: true
